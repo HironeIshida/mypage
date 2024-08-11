@@ -1,12 +1,103 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #df1212;
-    color: #333;
+    background-color: #ffee00;
+    color: #971313;
     text-align: center;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: #007bff; 
+    color: #000000; 
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* 既存のスタイルはそのまま */
+
+#question-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#question-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#question-button:hover {
+    background-color: #0056b3;
+}
+
+#answer {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    display: none; /* 初期状態では非表示 */
+}
+
+
+/* 既存のスタイルはそのまま */
+
+#question-container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#question-button, #next-button {
+    padding: 20px 40px; /* ボタンのサイズを大きくするためにパディングを調整 */
+    font-size: 25px;    /* フォントサイズを大きくする */
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#question-button:hover, #next-button:hover {
+    background-color: #0056b3;
+}
+
+#answer {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #333;
+    display: none; /* 初期状態では非表示 */
 }
